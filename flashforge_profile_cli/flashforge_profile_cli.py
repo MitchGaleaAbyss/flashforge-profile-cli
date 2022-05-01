@@ -12,7 +12,7 @@ import sys
 
 from typing import List
 
-from flashforge_profile import (
+from flashforge_profile_cli.flashforge_profile import (
     FlashforgeProfile,
     InvalidProfile,
     InvalidParameter,
