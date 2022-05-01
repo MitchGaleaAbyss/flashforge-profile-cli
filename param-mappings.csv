@@ -1,0 +1,166 @@
+Settings Tab,Heading,Name,Config Name
+General,Speed,Base Print Speed,baseSpeed
+Advanced,Bridge,Bridge Area Threshold,bridgeAreaThreshold
+Advanced,Bridge,Enable Bridge,bridgeEnable
+Advanced,Bridge,Speed,bridgeSpeedRatio
+Additions,Brim,Enable Brim,brimEnable
+Additions,Brim,Select Extruder,brimExtruderType
+Additions,Brim,Generate Brim inside holes,brimGenInner
+Additions,Brim,Brim Layers,brimLayerCnt
+Additions,Brim,Margin,brimMargin
+Additions,Brim,Speed,brimSpeed
+Printer,,Chamber Preheat Time,chamberPreheatTime
+Printer,,Chamber Temp,chamberTemp
+Cooling,Decelerate/Delay For Filament Cooling,Deceleration Area Threshold,decelerateAreaThreshold
+Cooling,Decelerate/Delay For Filament Cooling,Delay Area Threshold,delayAreaThreshold
+Cooling,Decelerate/Delay For Filament Cooling,Maximum Delay Time,delayMaxTime
+Cooling,,Back Fan Status,extraFanMode
+Cooling,,Back Fan Speed,extraFanSpeed
+Printer,,Right Extruder Temperature,extruderTemp0
+Printer,,Left Extruder Temperature,extruderTemp1
+Advanced,Extrusion Ratio,Extrusion Ration,extrusionRatio
+Cooling,,Right Cooling Fan Control List:Table,fanLayerSpeeds0
+Cooling,,Left Cooling Fan Control List:Table,fanLayerSpeeds1
+Cooling,,Right Cooling Fan Control List:Checkbox,fanLayerSpeedsEnable0
+Cooling,,Left Cooling Fan Control List:Checkbox,fanLayerSpeedsEnable1
+Cooling,,Right Cooling Fan Control,fanMode0=2
+Cooling,,Left Cooling Fan Control,fanMode1=2
+Cooling,,Right Cooling Fan Default Speed,fanSpeed0
+Cooling,,Left Cooling Fan Default Speed,fanSpeed1
+Infill,General,Bottom Solid Layers,fillBottomSolidCnt
+Infill,General,Cross Angle,fillCrossAngle
+Infill,General,Fill Density,fillDensity
+Infill,Strength Infill,Solid Layers,fillInsideSolidCnt
+Infill,Strength,Interval Layers,fillInsideSolidInterval
+Infill,Strength,Infill Density Control:Checkbox,fillLayerDensityEnable
+Infill,Strength,Infill Density Control:Table,fillLayerDensitys
+Infill,Combine Infill,Combine Area Threshold,fillMinCombineLayerArea
+Infill,General,Overlap Perimeter,fillOverlapShellRatio
+Infill,General,Fill Pattern,fillPattern
+Infill,Combine Infill,Maximum Solid Combine,fillSolidCombineCnt
+Infill,Speed,Solid Speed,fillSolidSpeedRatio
+Infill,Combine Infill,Maximum Sparse Combine,fillSparseCombineCnt
+Infill,Speed,Sparse Speed,fillSparseSpeedRatio
+Infill,General,Start Angle,fillStartAngle
+Infill,General,Top Solid Layers,fillTopSolidCnt
+Advanced,Extrusion Ration,First Layer Extrusion Ratio,firstExtrusionRatio
+General,Speed,Slow Down First Few Layers,firstFewLayerCnt
+General,Speed,First Few Layers Max Speed,firstFewLayerMaxSpeed
+General,Layer Height,First Layer Height,firstLayerHeight
+General,Speed,First Layer Maximum Speed,firstLayerMaxSpeed
+General,Speed,First Layer Maximum Travel Speed,firstLayerMaxTravelSpeed
+Advanced,Fuzzy Skin,Enable Fuzzy Skin,fuzzyEnable
+Advanced,Fuzzy Skin,Fuzzy Skin Outside Only,fuzzyOutsideOnly
+Advanced,Fuzzy Skin,Fuzzy Skin Point Dist,fuzzyPointDist
+Advanced,Fuzzy Skin,Fuzzy Skin Thickness,fuzzyThickness
+Advanced,Ironing,Enable Ironing,ironingEnable
+Printer,,Control Module:Chamber:Table,layerChamberTemps
+Printer,,Control Module:Right Extruder:Table,layerExtruderTemps0
+Printer,,Control Module:Left Extruder:Table,layerExtruderTemps1
+General,Layer Height,Layer Height,layerHeight
+General,Layer Height,Variable Layer Height:Table,layerLHeights
+General,Layer Height,Variable Layer Height:Checkbox,layerLHeightsEnable
+Others,Pause At Layers,Pause Layers,layerPauses
+Printer,,Control Module:Platform:Table,layerPlatTemps
+Printer,,Control Module:Platform:Checkbox,layerTempsEnable
+General,Speed,Minimum Speed,minSpeed
+Others,Dimensional Adjustments,Enable Adjustments,offsetEnable
+Others,Dimensional Adjustments,Internal Compensation,offsetInner
+Others,Dimensional Adjustments,External Compensation,offsetOuter
+Advanced,Path,Path Precision,pathPrecision
+Advanced,Path,Path Width,pathWidth
+Printer,,Platform Temperature,platformTemp
+Additions,Pre-extrusion,Enable Pre-extrusion,preExtrudeEnable
+Additions,Pre-extrusion,Path length,preExtrudeLen
+Additions,Pre-extrusion,Margin,preExtrudeMargin
+Additions,Pre-extrusion,Speed,preExtrudeSpeed
+Additions,Wiping Tower,Speed,primeTowerSpeed
+Raft,General,Above Raft Extrusion Ratio,raftAboveExtrusionRatio
+Raft,General,Space to Model (Z),raftAboveLift
+Raft,General,Above Raft Maximum Speed,raftAboveMaxSpeed
+Raft,Bottom Layer,Fill Density,raftBottomDensity
+Raft,Bottom Layer,Layer Height,raftBottomHeight
+Raft,Bottom Layer,Path Width,raftBottomPathWidth
+Raft,Bottom Layer,Speed,raftBottomSpeed
+Raft,General,Enable Raft,raftEnable
+Raft,General,Select Extruder,raftExtruderType
+Raft,General,Margin,raftMargin
+Raft,Middle Layers,Layers,raftMiddleCnt
+Raft,Middle Layers,Fill Density,raftMiddleDensity
+Raft,Middle Layers,Layer Height,raftMiddleHeight
+Raft,Middle Layers,Path Width,raftMiddlePathWidth
+Raft,Middle Layers,Speed,raftMiddleSpeed
+Raft,Top Layers,Angle Between Model,raftTopAngleBetweenModel
+Raft,Top Layers,Layers,raftTopCnt
+Raft,Top Layers,Layer Height,raftTopHeight
+Raft,Top Layers,Path Width,raftTopPathWidth
+Raft,Top Layers,Speed,raftTopSpeed
+,,,retractCrossOutlineOnly
+General,Retraction,Right Retract Speed,retractInSpeed0
+General,Retraction,Left Retract Speed,retractInSpeed1
+General,Retraction,Right Extruder Length,retractLen0
+General,Retraction,Left Extruder Length,retractLen1
+General,Retraction,Right Extrude Speed,retractOutSpeed0
+General,Retraction,Left Extrude Speed,retractOutSpeed1
+General,Retraction,Right Extra Restart Length,retractOverExtrudeLen0
+General,Retraction,Left Extra Restart Length,retractOverExtrudeLen1
+Others,Sequential Printing,Enable Sequential Printing,sequentialPrinting
+Shells,Start Points,Permit optimize start points,shellAlterableStartPos
+Shells,Thickness,Shell Count,shellCnt
+Shells,Speed,Invisible Interior Max Speed,shellInvisibleInnerMaxSpeed
+Shells,Speed,Invisible Interior Speed,shellInvisibleInnerSpeedRatio
+Shells,Thickness,Overlap Perimeter,shellMaxOverlapRatio
+Shells,Speed,Exterior Max Speed,shellOuterMaxSpeed
+Shells,Speed,Exterior Speed,shellOuterSpeedRatio
+Shells,,Shell Print Order,shellPrintOrder
+Shells,Start Point Acceleration,Start Point Acceleration Distance,shellStartAccDist
+Shells,Start Point Acceleration,Enable Start Point Acceleration,shellStartAccEnable
+Shells,Start Points,Right Extruder X,shellStartPosClosestX0
+Shells,Start Points,Left Extruder X,shellStartPosClosestX1
+Shells,Start Points,Right Extruder Y,shellStartPosClosestY0
+Shells,Start Points,Left Extruder Y,shellStartPosClosestY1
+Shells,Start Points,Mode,shellStartPosMode
+Shells,Speed,Visible Interior Max Speed,shellVisibleInnerMaxSpeed
+Shells,Speed,Visible Interior Speed,shellVisibleInnerSpeedRatio
+Others,Material Shrinkage Compensation,X Compensation,shrinkageOffsetX
+Others,Material Shrinkage Compensation,Y Compensation,shrinkageOffsetY
+Others,Material Shrinkage Compensation,Z Compensation,shrinkageOffsetZ
+Supports,,Select Extruder,supportExtruderType
+Supports,Supports Type,Horizontal Expansion,supportLineHorzExpansion
+Supports,Supports Type,Path Angle,supportLinePathAngle
+Supports,Supports Type,Path Density,supportLinePathDensity
+Supports,Supports Type,Path Space,supportLinePathSpace
+Supports,Supports Type,Path Shape,supportLinePattern
+Supports,Supports Type,Space to Raft (Z),supportLineSpaceRaft
+Supports,Supports Type,Space to Model (X/Y),supportLineSpaceXy
+Supports,Supports Type,Space to Model (Z),supportLineSpaceZ
+Supports,Supports Type,Speed,supportLineSpeedRatio
+Supports,Supports Type,Support Thickness,supportLineThickness
+Supports,Supports Type,Top Solid Layers,supportLineTopSolidCnt
+Supports,Supports Type,Top Solid Density,supportLineTopSolidDensity
+Supports,Supports Type,Print Outline,supportLineWithOutline
+Supports,Supports Type,Auto Setup Z Hop,supportTreeAutoZHop
+Supports,Supports Type,Shell Count,supportTreeShellCnt
+Supports,Supports Type,Space to Model (X/Y),supportTreeSpaceXy
+Supports,Supports Type,Speed,supportTreeSpeedRatio
+General,Speed,Travel Speed,travelSpeed
+Infill,General,Vase Model,vaseMode
+,,,voltageE0
+,,,voltageE1
+,,,voltageX
+,,,voltageY
+,,,voltageZ
+Additions,Wall,Enable Wall,wallEnable
+Additions,Wall,Generate Wall inside holes,wallGenInner
+Additions,Wall,Margin,wallMargin
+Additions,Wall,Shell Count,wallShellCnt
+Additions,Wall,Speed,wallSpeed
+Others,Z Hop,Z Hop Height,zHopHeight
+Others,Z Hop,Z Hop Minimum Distance,zHopMinDist
+Others,Z Hop,Z Hop Mode,zHopMode
+Others,,Z Offset,zTranslate
+,,,filamentSizes0
+,,,filamentSizes1
+,,,machineId
+Printer,,Nozzle Size,nozzleSize
+Printer,,Slice Profile,profileName
