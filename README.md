@@ -9,6 +9,8 @@ The naming is as follows : {machineID prefix}\_{nozzel diameter}\_{name}.cfg
 ## Installation
 Run `cd <path/to/repo>/flashforge-profile-cli && sudo python3 setup.py install`
 
+Note: flashforge-profile-cli can also be run without installation, by running `./flashforge-profile-cli` from repo directory
+
 ## Updating the flashforge profiles from the repo
 The profiles are stored in the repo under profiles folder. We could open the Flashprint application and import each profile individually, but do we really want to do that?. For Flashprint to access the slicing profiles they must be in the Flashprint folder when opening the application to work. So we have created flashforge-profile-cli to help with this process. 
 
